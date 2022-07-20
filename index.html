@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asssets/css/elements.css">
+    <link rel="stylesheet" href="asssets/css/style.css">
+    <title>Lading Page</title>
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button" aria-pressed="true" >
+    <label for="close-menu" title="close menu" class="close-menu-label"></label>
+    <header class="menu white-bg">
+        <section class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#home">LOGO</a>
+            </h1>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#grid-one">grid-one</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>January brings us Firefox 85</h2>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum labore deleniti aut? Distinctio
+                    fugiat, minus
+                    officia sit odit totam laborum accusantium architecto aliquam soluta suscipit quas eum saepe quae
+                    necessitatibus?</p>
+            </div>
+            <div class="intro-img">
+                <img src="asssets/img/javascript.svg" alt="Logo de HTML, CSS e JS.">
+            </div>
+        </div>
+    </section>
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>News Coverage And Some Surprises</h2>
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and
+                some surprises at the machines performance. This post details some background information on the
+                experience of porting Firefox to run natively on these CPUs.</p>
+            <p>Well start with some background on the Mac transition and give an overview of Firefox internals that
+                needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+            <p>Well then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur,
+                and discuss various updater problems we had to deal with. Well conclude with the release and an
+                overview of various</p>
+        </div>
+    </section>
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">my grid</h2>
+            <p class="grid-description">Uma breve descrição</p>
+            <div class="grid">
+                <article>
+                    <h3>teste1</h3>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nobis quos sequi recusandae
+                    perferendis tempora, aperiam
+                </p>
+                </article>
+                <article>
+                    <h3>teste2</h3>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nobis quos sequi recusandae
+                    perferendis tempora, aperiam itaque. Ipsum architecto, dolor omnis consequatur earum itaque, facilis
+                    eligendi id tenetur optio natus!
+                </p>
+                </article>
+                <article>
+                    <h3>teste3</h3>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nobis quos sequi recusandae
+                    perferendis tempora, aperiam itaque. Ipsum architecto, dolor omnis consequatur earum itaque, facilis
+                    eligendi id tenetur optio natus!
+                </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Uma breve descrição</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="asssets/img/foto1.jpg" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="asssets/img/foto2.jpg" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="asssets/img/foto3.jpg" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="asssets/img/foto4.jpg" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="asssets/img/foto5.jpg" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="asssets/img/foto6.jpg" alt="random image from unsplash">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Pricing</h2>
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and
+                some surprises at the machines performance. This post details some background information on the
+                experience of porting Firefox to run natively on these CPUs.</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                            <th>Title 4</th>
+                            <th>Title 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>    
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>January brings us Firefox 85</h2>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum labore deleniti aut? Distinctio
+                    fugiat, minus
+                    officia sit odit totam laborum accusantium architecto aliquam soluta suscipit quas eum saepe quae
+                    necessitatibus?</p>
+            </div>
+            <div class="intro-img">
+                <img src="asssets/img/javascript.svg" alt="Logo de HTML, CSS e JS.">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Your email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Send message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer white-bg">
+        <p>Feito com <span class="heart">❤ </span> por Wesley, Curso: Otavio Miranda</p>
+    </footer>
+    <a class="back-to-top" href="#home">➤</a>
+</body>
+
+</html>
